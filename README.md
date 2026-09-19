@@ -1,5 +1,8 @@
 # AWSGenAIdeveloper
+# Activity on Linkedin: https://lnkd.in/p/gaP_Z9iZ
+# View Tutorial on Youtube: https://youtu.be/olKbgI57PRE?si=OI9wp5DQdRjGJB3r
 # Section 2 — Generative AI Fundamentals and Amazon Bedrock
+# BLA-WEEK2 Troubleshooting Reference
 
 Errors encountered or anticipated during the labs, with the cause rather than the obvious-looking one. The pattern worth noticing: several Bedrock errors point at IAM when the real problem is model access, Region, or the wrong API client entirely.
 
