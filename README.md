@@ -1,10 +1,8 @@
 # AWSGenAIdeveloper
-# BLA-WEEK2 Troubleshooting Reference
 # Section 2 — Generative AI Fundamentals and Amazon Bedrock
 
 Errors encountered or anticipated during the labs, with the cause rather than the obvious-looking one. The pattern worth noticing: several Bedrock errors point at IAM when the real problem is model access, Region, or the wrong API client entirely.
 
----
 
 ## 1. `AccessDeniedException` on a model you have IAM permission for
 
