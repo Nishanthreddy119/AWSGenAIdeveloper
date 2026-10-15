@@ -1,4 +1,3 @@
-# BLA8
 # X-Ray Trace Missing the Bedrock Call
 
 ## Problem
@@ -7,7 +6,7 @@ The X-Ray trace shows the Lambda function, but the Amazon Bedrock call does not 
 
 ## Fix
 
-
+```python
 import json
 from aws_xray_sdk.core import patch_all
 
@@ -26,6 +25,6 @@ def lambda_handler(event, context):
     )
     answer = resp["output"]["message"]["content"][0]["text"]
     return {"statusCode": 200, "body": json.dumps({"answer": answer})}
-
+```
 
 
